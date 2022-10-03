@@ -32,4 +32,4 @@ facilitate data collection from free-text reports.
 METHODS:
 This program implements an object oriented approach, using Python v3.x. Dependencies include but are
 not limited to:
-pandas, numpy, openpyxl, re, string, math
+pandas, numpy, openpyxl, re, string, math, lxml, ujson, collections

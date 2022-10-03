@@ -1,4 +1,4 @@
-# public_pathology_report_process
+# public_PathReporter
 Creating Value from Free Text and Semi-structure Pathology Reports (AGPL v3.0)
 =============================================================================================
     AGPL v3.0 NOTICE

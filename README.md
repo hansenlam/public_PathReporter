@@ -23,7 +23,7 @@ Creating Value from Free Text and Semi-structure Pathology Reports (AGPL v3.0)
 
     You should have received a copy of the GNU Affero General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
-=============================================================================================
+
 
 OBJECTIVE:
 This program processes semi-structured pathology reports in XML format to create tabulated data and

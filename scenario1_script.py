@@ -8,23 +8,22 @@ import numpy as np
 import re
 pd.set_option('display.max_colwidth', None)
 pd.set_option('display.max_columns', None)
+
 # SCENARIO 1
 result_all = []
-xml_file_list = ['//users4/users4$/lamh05/Data/Personal/DesktopFiles/REPORT EXTRACTOR PAPER/XML Files/xml_scenario1.xml']
+xml_file_list = [<xml file path>]
 for xml_file in xml_file_list:
     results = report_extract(xml_file)
     result_all = result_all + results
 df = known_results_to_frame(result_all, extracted_type='entities',specimen_type='ain')
-df[df['CASE']=='BS-18-03217']
 df.info()
 df = df.drop(['ENTITIES','KEY_TERMS','HEDGE_ENTITIES','DEFINITE_ENTITIES','NEGATIVE_ENTITIES','SCORE_LIST','AVG_SCORE','CATEGORY','KEY_TERMS_STRING','DEFINITE_TERMS_STRING','INTERPRETATION'],axis=1)
 df.to_excel('SCENARIO1_EXTRACTED_new.xlsx')
+#t = XMLDictionary(<xml file path>)
 
-t = XMLDictionary('//users4/users4$/lamh05/Data/Personal/DesktopFiles/REPORT EXTRACTOR PAPER/XML Files/xml_scenario1.xml')
-t.getCaseDict('RS-18-07717')
 # SCENARIO 2
 result_all = []
-xml_file_list = ['//users4/users4$/lamh05/Data/Personal/DesktopFiles/REPORT EXTRACTOR PAPER/XML Files/xml_scenario2.xml']
+xml_file_list = [<xml file path>]
 for xml_file in xml_file_list:
     results = report_extract_feats(xml_file)
     result_all = result_all + results
@@ -100,7 +99,7 @@ df_feat.info()
 
 
 # SCENARIO 3
-xml_file_list = ['//users4/users4$/lamh05/Data/Personal/DesktopFiles/REPORT EXTRACTOR PAPER/XML Files/GU/gu_prostate_test.xml']
+xml_file_list = [<xml file path>]
 prostate_list = ([
     'TYPE', 'PRIMARY GLEASON GRADE', 'SECONDARY GLEASON GRADE', 'TOTAL GLEASON SCORE',
     'GRADE GROUP', 'TOTAL # OF CORES IDENTIFIED', 'TOTAL # OF CORES WITH CARCINOMA',
@@ -130,6 +129,4 @@ for col in prostate_list:
         )
     )
 prostate_all.to_excel('SCENARIO3_EXTRACTED_11-24.xlsx')
-t = XMLDictionary('//users4/users4$/lamh05/Data/Personal/DesktopFiles/REPORT EXTRACTOR PAPER/XML Files/GU/gu_prostate_test.xml')
-t.getCaseDict('RP-19-00351', item='diags').items()
-t.getCaseDict('RP-19-00351')
+t = XMLDictionary(<xml file path>)

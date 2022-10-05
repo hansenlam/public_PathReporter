@@ -44,3 +44,8 @@ the "report_extract" and "report_extract_feats" functions. A slightly modified f
 is also provided to demonstrate how different modules can be added to alter feature extraction. Key
 classes include the XMLDocument class which parses individual reports into accessioning information, demographics, 
 diagnostic text, and gross specimen descriptions, and saves to a new instance.
+
+ROADMAP:
+- Adding comments for code clarification
+- Re-visiting class and method organization to improve readability
+- Open to suggestions from wider community

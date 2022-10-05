@@ -6,7 +6,8 @@ Creating Value from Free Text and Semi-structure Pathology Reports (AGPL v3.0)
 
     PROGRAM TITLE: PathReporter
     Copyright (C) 2022
-    Hansen Lam, M.D., Freddy Nguyen, M.D., Ph.D., Aryeh Stock, M.D., John Kim, M.D., Karl Eichorn, Dan Wild
+    Hansen Lam, M.D., Freddy Nguyen, M.D., Ph.D., Aryeh Stock, M.D., Xintong Wang, M.D., Volha Lenskaya, M.D.
+    Alexandros Polydorides, M.D., Qiusheng Si, M.D., John Kim, M.D., Karl Eichorn, Dan Wild
     Disclaimer: This software is intended for research purposes only. This software is not
     for clinical use. The authors and contributors shall not be liable for any damages or
     losses resulting from the use of this software. The authors and contributors shall not 

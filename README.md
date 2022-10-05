@@ -35,3 +35,12 @@ METHODS:
 This program implements an object oriented approach, using Python v3.x. Dependencies include but are
 not limited to:
 pandas, numpy, openpyxl, re, string, math, lxml, ujson, collections
+
+HOW TO USE:
+Example uses are documented in "scenarios_script.py"
+In summary, XML documents containing collections of subspecialty reports should be grouped in to folders
+by subspecialty. Sample code is provided which acesses each XML file in a folder. Key functions include 
+the "report_extract" and "report_extract_feats" functions. A slightly modified function, "report_extract_prostate"
+is also provided to demonstrate how different modules can be added to alter feature extraction. Key
+classes include the XMLDocument class which parses individual reports into accessioning information, demographics, 
+diagnostic text, and gross specimen descriptions, and saves to a new instance.

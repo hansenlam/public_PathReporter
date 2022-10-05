@@ -36,7 +36,7 @@ This program implements an object oriented approach, using Python v3.x. Dependen
 not limited to:
 pandas, numpy, openpyxl, re, string, math, lxml, ujson, collections
 
-HOW TO USE:
+USE NOTES:
 Example uses are documented in "scenarios_script.py"
 In summary, XML documents containing collections of subspecialty reports should be grouped in to folders
 by subspecialty. Sample code is provided which acesses each XML file in a folder. Key functions include 

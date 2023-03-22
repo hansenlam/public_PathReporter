@@ -31,6 +31,10 @@ OBJECTIVE:
 This program processes semi-structured pathology reports in XML format to create tabulated data and
 facilitate data collection from free-text reports. 
 
+CONTRIBUTORS:
+@kaeichorn
+@hansenlam
+
 METHODS:
 This program implements an object oriented approach, using Python v3.x. Dependencies include but are
 not limited to:

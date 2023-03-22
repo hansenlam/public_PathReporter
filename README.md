@@ -32,7 +32,7 @@ This program processes semi-structured pathology reports in XML format to create
 facilitate data collection from free-text reports. 
 
 CONTRIBUTORS:
-@kaeichorn
+@kaeichorn https://github.com/kaeichorn
 @hansenlam
 
 METHODS:
